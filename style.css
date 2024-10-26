@@ -62,7 +62,8 @@
     font-size: 1.7rem;
     text-align: center;
     color: black;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .main__css-container {
