@@ -60,17 +60,5 @@
 
 .main__description {
     font-size: 1.7rem;
-    text-align: center;
     color: black;
-    margin: 1rem;
-}
-
-.main__css-container {
-    font-size: 1.4rem;
-    background-color: #edebeb;
-    color: black;
-    max-width: 30%;
-    margin-inline: auto;
-    padding: 1.5rem 2rem;
-    border-radius: 10px;
 }
