@@ -29,3 +29,28 @@
     font-size: 4.5rem;
     font-weight: bold;
 }
+
+.main__input-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 50%;
+    margin-inline: auto;
+    margin-top: 2.5rem;
+}
+
+.main__input-container--1margin {
+    margin-top: 1rem;
+}
+
+.main__input {
+    display: block;
+    font-size: 2rem;
+    color: black;
+    border: none;
+    background: none;
+    border: 2px solid #000;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    outline: none;
+}
