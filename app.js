@@ -1,5 +1,6 @@
 // Variables
 const allInputs = document.querySelectorAll('.main__input');
+const box = document.querySelector('.main__box'); 
 
 // Corner variables
 const topLeft = document.querySelector('.main__top-left-value');
