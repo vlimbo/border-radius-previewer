@@ -47,6 +47,17 @@ const changeCss = (corner) => {
     } else if (corner.placeholder === 'bottom-right') {
         box.style.borderBottomRightRadius = `${corner.value}px`;
     }
-}
+};
+
+const fullParagraph = () => {
+    let finalString = '';
+
+    for (let line of paragraphs) {
+        finalString += `${line.textContent}\n`;
+    }
+
+    return finalString;
+};
+
 // Event-listeners
 addEventListeners();
