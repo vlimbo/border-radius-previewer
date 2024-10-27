@@ -7,13 +7,14 @@ const topRight = document.querySelector('.main__top-right-value');
 const bottomLeft = document.querySelector('.main__bottom-left-value');
 const bottomRight = document.querySelector('.main__bottom-right-value');
 
-console.log(topLeft, topRight, bottomLeft, bottomRight);
 
 // Functions
 const addEventListeners = () => {
     for (let input of allInputs) {
         input.addEventListener('keydown', (event) => {
-            console.log(event.key);
+            if (event.key === 'Enter') {   
+                console.log('Works');
+            };
         });
     };
 };
