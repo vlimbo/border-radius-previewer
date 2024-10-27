@@ -15,6 +15,7 @@ const addEventListeners = () => {
         input.addEventListener('keydown', (event) => {
             if (event.key === 'Enter') {   
                 changeCode(input);
+                changeCss(input);
                 input.value = '';
             };
         });
@@ -32,5 +33,17 @@ const changeCode = (corner) => {
         bottomRight.textContent = corner.value;
     }
 };
+
+const changeCss = (corner) => {
+    if (corner.placeholder === 'top-left') {
+        box.style.borderTopLeftRadius = `${corner.value}px`;
+    } else if (corner.placeholder === 'top-right') {
+        box.style.borderTopRightRadius = `${corner.value}px`;
+    } else if (corner.placeholder === 'bottom-left') {
+        box.style.borderBottomLeftRadius = `${corner.value}px`;
+    } else if (corner.placeholder === 'bottom-right') {
+        box.style.borderBottomRightRadius = `${corner.value}px`;
+    }
+}
 // Event-listeners
 addEventListeners();
