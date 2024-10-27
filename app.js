@@ -13,10 +13,22 @@ const addEventListeners = () => {
     for (let input of allInputs) {
         input.addEventListener('keydown', (event) => {
             if (event.key === 'Enter') {   
-                console.log('Works');
+                changeCode(input);
             };
         });
     };
+};
+
+const changeCode = (corner) => {
+    if (corner.placeholder === 'top-left') {
+        topLeft.textContent = corner.value;
+    } else if (corner.placeholder === 'top-right') {
+        topRight.textContent = corner.value;
+    } else if (corner.placeholder === 'bottom-left') {
+        bottomLeft.textContent = corner.value;
+    } else if (corner.placeholder === 'bottom-right') {
+        bottomRight.textContent = corner.value;
+    }
 };
 // Event-listeners
 addEventListeners();
