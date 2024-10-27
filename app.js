@@ -2,11 +2,14 @@
 const allInputs = document.querySelectorAll('.main__input');
 const box = document.querySelector('.main__box'); 
 
-// Corner variables
+// Paragraph-corner variables
 const topLeft = document.querySelector('.main__top-left-value');
 const topRight = document.querySelector('.main__top-right-value');
 const bottomLeft = document.querySelector('.main__bottom-left-value');
 const bottomRight = document.querySelector('.main__bottom-right-value');
+
+// Paragraph variables
+const paragraphs = document.querySelectorAll('.main__css');
 
 
 // Functions
