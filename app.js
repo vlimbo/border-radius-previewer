@@ -14,6 +14,7 @@ const addEventListeners = () => {
         input.addEventListener('keydown', (event) => {
             if (event.key === 'Enter') {   
                 changeCode(input);
+                input.value = '';
             };
         });
     };
