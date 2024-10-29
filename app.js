@@ -2,6 +2,7 @@
 const allInputs = document.querySelectorAll('.main__input');
 const box = document.querySelector('.main__box'); 
 const copyToClip = document.querySelector('.main__img');
+const clipText = document.querySelector('.main__copied');
 
 // Paragraph-corner variables
 const topLeft = document.querySelector('.main__top-left-value');

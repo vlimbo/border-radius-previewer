@@ -86,10 +86,12 @@ img {
     position: absolute;
     font-size: .8rem;
     font-weight: bold;
-    top: 50px;
-    right: 10px;
+    top: 20px;
+    right: 65px;
     background-color: #fff;
-    padding: .5rem 1rem;
+    padding: .3rem .5rem;
+    border-radius: 1000px;
+    display: none;
 }
 
 .main__img-container {
