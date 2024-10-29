@@ -62,3 +62,7 @@ const fullParagraph = () => {
 
 // Event-listeners
 addEventListeners();
+copyToClip.addEventListener('click', () => {
+    console.log('Works');
+});
+
