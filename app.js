@@ -1,6 +1,7 @@
 // Variables
 const allInputs = document.querySelectorAll('.main__input');
 const box = document.querySelector('.main__box'); 
+const copyToClip = document.querySelector('.main__img');
 
 // Paragraph-corner variables
 const topLeft = document.querySelector('.main__top-left-value');
