@@ -77,5 +77,5 @@ copyToClip.addEventListener('click', () => {
     clipText.style.display = 'block';
     setTimeout(() => {
         clipText.style.display = '';
-    }, 1000)
+    }, 1000);
 });
