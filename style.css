@@ -82,6 +82,16 @@ img {
     border-radius: 10px;
 }
 
+.main__copied {
+    position: absolute;
+    font-size: .8rem;
+    font-weight: bold;
+    top: 50px;
+    right: 10px;
+    background-color: #fff;
+    padding: .5rem 1rem;
+}
+
 .main__img-container {
     position: absolute;
     top: 10px;
