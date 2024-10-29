@@ -60,9 +60,17 @@ const fullParagraph = () => {
     return finalString;
 };
 
+const copyContent = async() => {
+    try {
+        await navigator.clipboard.writeText(fullParagraph());
+        console.log('Content copied to clipboard');
+    } catch(err) {
+        console.error('Failed to copy', err);
+    }
+}
+
 // Event-listeners
 addEventListeners();
 copyToClip.addEventListener('click', () => {
-    console.log('Works');
+    copyContent();
 });
-
