@@ -74,4 +74,8 @@ const copyContent = async() => {
 addEventListeners();
 copyToClip.addEventListener('click', () => {
     copyContent();
+    clipText.style.display = 'block';
+    setTimeout(() => {
+        clipText.style.display = '';
+    }, 1000)
 });
